@@ -13,24 +13,7 @@ NLP to SQL Generator is an AI-powered tool that converts **natural language quer
 - 🛠️ **Uses Ollama API** for NLP query processing.
 
 ## 📁 Project Structure
-📁 NLP-2-SQL-Generator
-│── 📁 frontend/                 # Frontend files (HTML, CSS, JS)
-│   ├── index.html              # Main HTML file for the frontend
-│   ├── style.css               # CSS for styling the frontend
-│   ├── script.js               # JavaScript for handling frontend logic
-│
-│── 📁 backend/                  # Backend files (Python, Flask)
-│   ├── app.py                  # Flask application to handle API routes
-│   ├── database_setup.py        # Script to set up and initialize the database
-│   ├── employee.csv             # CSV file containing employee data
-│   ├── query_to_sql.py          # Logic to convert queries into SQL
-│   ├── schema_mapping.py        # Maps database schema for query processing
-│   ├── sql_prompt_generator.py  # Generates the SQL prompt from user input
-│
-│── 📄 requirements.txt          # List of required Python libraries
-│── 📄 README.md                 # Project Documentation
-│── 📄 .gitignore                # Git ignore file to exclude unnecessary files
-
+NLP-2-SQL-Generator/ │ ├── frontend/ # Frontend files (HTML, CSS, JS) │ ├── index.html # Main HTML file for the frontend │ ├── style.css # CSS for styling the frontend │ ├── script.js # JavaScript for handling frontend logic │ ├── backend/ # Backend files (Python, Flask) │ ├── app.py # Flask application to handle API routes │ ├── database_setup.py # Script to set up and initialize the database │ ├── employee.csv # CSV file containing employee data │ ├── query_to_sql.py # Logic to convert queries into SQL │ ├── schema_mapping.py # Maps database schema for query processing │ ├── sql_prompt_generator.py # Generates the SQL prompt from user input │ ├── requirements.txt # List of required Python libraries ├── README.md # Project documentation └── .gitignore # Git ignore file to exclude unnecessary files
 
 ## 🚀 Setup Instructions
 
